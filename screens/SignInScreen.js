@@ -74,7 +74,7 @@ export default function SignInScreen({ navigation }) {
             <Text style={styles.buttonText}>Log in</Text>
           </TouchableOpacity>
           {loading ? (
-            <ActivityIndicator style={{ marginLeft: 20, marginBottom: 20 }} /> // adjust
+            <ActivityIndicator style={{ marginLeft: 20, marginBottom: 20, color="purple" }} /> // adjust
           ) : null}
         </View>
         <Text style={styles.errorText}>{errorText}</Text>
